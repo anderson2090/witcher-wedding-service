@@ -1,3 +1,6 @@
+import Heading from "./Heading";
+import TopRow from "./TopRow";
+
 const WeddingCard = () => {
   return (
     <div className={"main"}>
@@ -14,6 +17,9 @@ const WeddingCard = () => {
             margin: 10px;
           }
           .second {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             border: 1px solid #c2a078;
             height: 99%;
             flex: 1;
@@ -21,7 +27,10 @@ const WeddingCard = () => {
           }
         `}
       </style>
-      <div className="second"></div>
+      <div className="second">
+        <Heading />
+        <TopRow />
+      </div>
     </div>
   );
 };

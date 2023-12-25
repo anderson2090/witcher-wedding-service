@@ -14,6 +14,7 @@ const HomePage = () => {
           height: 100vh;
         }
       `}</style>
+      
       <WeddingCard />
     </>
   );
