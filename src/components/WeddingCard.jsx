@@ -1,3 +1,4 @@
+import Form from "./Form";
 import Heading from "./Heading";
 import TopRow from "./TopRow";
 
@@ -41,6 +42,7 @@ const WeddingCard = () => {
         <TopRow />
         <h1>Witcher Wedding Planners</h1>
         <h2>Turning your magical day into a monster-free memory!</h2>
+        <Form />
       </div>
     </div>
   );
