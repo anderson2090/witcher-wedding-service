@@ -11,7 +11,11 @@ const Form = () => {
           width: 70%;
         }
         form {
-            
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+        }
+        .name-input-container {
           justify-content: center;
           align-items: center;
           display: flex;
@@ -35,10 +39,9 @@ const Form = () => {
         }
 
         .hr-line {
-         
           border-bottom: 2px solid #3a260a;
         }
-        .full-name-container {
+        .full-name-inputs-container {
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -47,33 +50,35 @@ const Form = () => {
       `}</style>
 
       <form>
-        <Image
-          className={"dragon-image"}
-          width={150}
-          height={150}
-          alt="Dragon"
-          src={DragonLeft}
-        />
-        <div className={"full-name-container"}>
-          <input
-            className={"name-input"}
-            type="text"
-            placeholder="Reveal thy given moniker."
+        <div className={"name-input-container"}>
+          <Image
+            className={"dragon-image"}
+            width={150}
+            height={150}
+            alt="Dragon"
+            src={DragonLeft}
           />
-          <div className={"hr-line"}></div>
-          <input
-            className={"name-input"}
-            type="text"
-            placeholder="Unveil thy family name."
+          <div className={"full-name-inputs-container"}>
+            <input
+              className={"name-input"}
+              type="text"
+              placeholder="Reveal thy given moniker."
+            />
+            <div className={"hr-line"}></div>
+            <input
+              className={"name-input"}
+              type="text"
+              placeholder="Unveil thy family name."
+            />
+          </div>
+          <Image
+            className={"dragon-image"}
+            width={150}
+            height={150}
+            alt="Dragon"
+            src={DragonRight}
           />
         </div>
-        <Image
-          className={"dragon-image"}
-          width={150}
-          height={150}
-          alt="Dragon"
-          src={DragonRight}
-        />
       </form>
     </div>
   );
