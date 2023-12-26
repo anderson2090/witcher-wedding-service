@@ -19,6 +19,7 @@ const WeddingCard = () => {
           .second {
             display: flex;
             flex-direction: column;
+            justify-content: start;
             align-items: center;
             border: 1px solid #c2a078;
             height: 99%;
