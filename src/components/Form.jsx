@@ -11,6 +11,7 @@ const Form = () => {
           width: 70%;
         }
         form {
+            
           justify-content: center;
           align-items: center;
           display: flex;
@@ -32,14 +33,16 @@ const Form = () => {
         .name-input::placeholder {
           color: #835b47;
         }
-        .name-input-inner-container {
-          padding: 1px;
-          border-bottom: 1px solid #bec2d4;
-        }
-        .name-input-outer-container {
-          flex: 1;
-          padding: 1px;
+
+        .hr-line {
+         
           border-bottom: 2px solid #3a260a;
+        }
+        .full-name-container {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1px;
         }
       `}</style>
 
@@ -51,14 +54,18 @@ const Form = () => {
           alt="Dragon"
           src={DragonLeft}
         />
-        <div className={"name-input-outer-container"}>
-          <div className={"name-input-inner-container"}>
-            <input
-              className={"name-input"}
-              type="text"
-              placeholder="Reveal thy given moniker"
-            />
-          </div>
+        <div className={"full-name-container"}>
+          <input
+            className={"name-input"}
+            type="text"
+            placeholder="Reveal thy given moniker."
+          />
+          <div className={"hr-line"}></div>
+          <input
+            className={"name-input"}
+            type="text"
+            placeholder="Unveil thy family name."
+          />
         </div>
         <Image
           className={"dragon-image"}
