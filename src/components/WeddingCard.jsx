@@ -26,11 +26,21 @@ const WeddingCard = () => {
             flex: 1;
             margin: 2px;
           }
+          h1 {
+            font-size: 4rem;
+            color: #3e4d50;
+          }
+          h2 {
+            font-size: 2rem;
+            color: #2f1600;
+          }
         `}
       </style>
       <div className="second">
         <Heading />
         <TopRow />
+        <h1>Witcher Wedding Planners</h1>
+        <h2>Turning your magical day into a monster-free memory!</h2>
       </div>
     </div>
   );
