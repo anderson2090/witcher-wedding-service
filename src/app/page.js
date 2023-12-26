@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
       <style jsx global>{`
         body {
-          background: #f8f2d2;
+          background: #faf4d4;
           display: flex;
           align-items: center;
           justify-content: center;

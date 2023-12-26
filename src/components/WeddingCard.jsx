@@ -10,7 +10,7 @@ const WeddingCard = () => {
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid #c2a078;
+            border: 2px solid #b8a47d;
             border-radius: 2px;
             flex: 1;
             height: 97%;
@@ -21,7 +21,7 @@ const WeddingCard = () => {
             flex-direction: column;
             justify-content: start;
             align-items: center;
-            border: 1px solid #c2a078;
+            border: 1px solid #b8a47d;
             height: 99%;
             flex: 1;
             margin: 2px;

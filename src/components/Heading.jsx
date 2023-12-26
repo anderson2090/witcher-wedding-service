@@ -11,7 +11,7 @@ const Heading = () => {
           align-items: center;
         }
         p {
-          color: #7a5833;
+          color: #8f663d;
           
         }
       `}</style>
