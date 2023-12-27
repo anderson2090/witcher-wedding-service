@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import DragonLeft from "/public/dragon-left.png";
 import DragonRight from "/public/dragon-right.png";
@@ -98,8 +99,16 @@ const Form = () => {
         <div className={"hr-line"}></div>
         <div className={"hr-line"}></div>
         <div className={"password-container"}>
-          <input type="password" className={"password-input"} />
-          <input type="password" className={"password-input"} />
+          <input
+            type="password"
+            className={"password-input"}
+            placeholder="Speak the secret phrase"
+          />
+          <input
+            type="password"
+            className={"password-input"}
+            placeholder="Echo the incantation once more"
+          />
         </div>
       </form>
     </div>

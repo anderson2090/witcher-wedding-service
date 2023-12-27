@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Witcher Wedding Planners
 
-## Getting Started
+Turn your magical day into a monster-free memory with Witcher Wedding Planners! Embrace the chaos of love in a world filled with monsters, magic, and merriment.
 
-First, run the development server:
+## Motto
+"Monsters Hate Wedding Crashers!"
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Services
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Monster-Proof Venues:** Scenic spots guarded against griffins, drowners, and other uninvited guests.
+  
+2. **Witcher Security Detail:** Expert witchers ensuring a safe ceremony and reception.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. **Magical Wardrobe Consultations:** Stylish yet protective attire for the monster-filled world.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Potion Bar:** Elixirs for enhanced merriment, hangover cures, and temporary magical curse resistance.
 
-## Learn More
+5. **Beastly Bouquet Toss:** Adventure-infused challenges for a unique bouquet toss experience.
 
-To learn more about Next.js, take a look at the following resources:
+6. **Monster-Themed Catering:** Exotic dishes inspired by The Witcher world's creatures.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. **Custom Monster-Cake Designs:** Delicious creations resembling famous monsters.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+8. **Gwent Tournament:** A lively card game with monster-themed Gwent cards as wedding favors.
 
-## Deploy on Vercel
+9. **Alchemy Photo Booth:** Snapshots with props inspired by alchemy and magical creatures.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+10. **Lute-Playing Bard for the First Dance:** Romantic melodies creating a medieval atmosphere.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
