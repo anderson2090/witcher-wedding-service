@@ -54,9 +54,13 @@ const Form = () => {
           justify-content: center;
         }
         .password-input {
+          text-align: center;
+          border-radius: 2px;
           margin: 10px;
           flex: 1;
           padding: 5px;
+          color: #4e4741;
+          background-color: #dedee0;
           border: 1px solid #6d543a;
         }
       `}</style>
