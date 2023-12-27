@@ -39,13 +39,25 @@ const Form = () => {
         }
 
         .hr-line {
-          border-bottom: 2px solid #3a260a;
+          border-bottom: 2px solid #866938;
+          margin: 1px;
         }
         .full-name-inputs-container {
           flex: 1;
           display: flex;
           flex-direction: column;
           gap: 1px;
+        }
+        .password-container {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+        }
+        .password-input {
+          margin: 10px;
+          flex: 1;
+          padding: 5px;
+          border: 1px solid #6d543a;
         }
       `}</style>
 
@@ -78,6 +90,12 @@ const Form = () => {
             alt="Dragon"
             src={DragonRight}
           />
+        </div>
+        <div className={"hr-line"}></div>
+        <div className={"hr-line"}></div>
+        <div className={"password-container"}>
+          <input type="password" className={"password-input"} />
+          <input type="password" className={"password-input"} />
         </div>
       </form>
     </div>
